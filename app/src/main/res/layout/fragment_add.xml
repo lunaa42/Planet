@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/etnameAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="text"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="170dp" />
+
+        <EditText
+            android:id="@+id/etSizeadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Size"
+            android:inputType="text"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="276dp" />
+
+        <EditText
+            android:id="@+id/etOrbitAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Orbit"
+            android:inputType="text"
+            tools:layout_editor_absoluteX="9dp"
+            tools:layout_editor_absoluteY="368dp" />
+
+        <Button
+            android:id="@+id/btnAddadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            tools:layout_editor_absoluteX="153dp"
+            tools:layout_editor_absoluteY="513dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
